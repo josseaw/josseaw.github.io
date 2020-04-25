@@ -136,7 +136,7 @@ p {
 
 section {
   position: relative;
-  width: 100%;
+  width: 100vw;
   background-attachment: fixed;
 }
 
@@ -197,7 +197,7 @@ section {
 
 header {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 999;
 }
 
@@ -589,7 +589,7 @@ header {
 footer {
   position: relative;
   height: 40px;
-  width: 100%;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -54,11 +54,11 @@
         width: 100%;
     }
     .nav-link {
-        @include absolute(100%, 80px);
-        background-color: #162c3b;
+        @include absolute(100%, 180px);
+        background-color: #12222d;
         display: none;
         margin-left: -20px;
-        margin-top: 10px;
+        margin-top: 63px;
         ul {
             @include flex(center);
             flex-direction: column;

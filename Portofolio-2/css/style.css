@@ -125,7 +125,7 @@ h6 {
 
 section {
   position: relative;
-  width: 100%;
+  width: 100vw;
   background-attachment: fixed;
 }
 
@@ -171,7 +171,7 @@ section {
 
 header {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 999;
 }
 
@@ -371,7 +371,7 @@ header {
 footer {
   position: relative;
   height: 40px;
-  width: 100%;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -453,12 +453,12 @@ footer {
   }
   .nav-link {
     position: absolute;
-    height: 80px;
+    height: 180px;
     width: 100%;
-    background-color: #162c3b;
+    background-color: #12222d;
     display: none;
     margin-left: -20px;
-    margin-top: 10px;
+    margin-top: 63px;
   }
   .nav-link ul {
     display: -webkit-box;
